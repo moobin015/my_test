@@ -13,7 +13,10 @@ class My_test extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SecendScrine()
+        home:
+        ///voter and non voter chack
+      // SecendScrine()///
+      ///floating action button kivave kaj kore
       //First_Scrine(),
     );
   }
