@@ -1,22 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:my_test/Modul_12/class_1.dart';
+import 'package:my_test/Modul_12/class_2.dart';
 import 'package:my_test/Scrine/Secend_Scrine.dart';
+import 'package:my_test/my_test/calculetor.dart';
 
 import 'Scrine/First_Scrine.dart';
 import 'Scrine/Three_Scrine.dart';
 
 void main() {
-  runApp(My_test());
+  runApp(const My_test());
 }
 
-class My_test extends StatelessWidget {
+// ignore: camel_case_types
+class  My_test extends StatelessWidget {
   const My_test({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Class1(),
+      home: Class2(),
+      // Calculetor(),
+      //Class1(),
 
       /**
        * ThreeScrine(),
