@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_test/Modul_12/class_1.dart';
-import 'package:my_test/Modul_12/class_2.dart';
-import 'package:my_test/Scrine/Secend_Scrine.dart';
-import 'package:my_test/my_test/calculetor.dart';
-
-import 'Scrine/First_Scrine.dart';
-import 'Scrine/Three_Scrine.dart';
+import 'package:my_test/Module_13/class_1.dart';
+import 'package:my_test/Module_13/test/test1.dart';
 
 void main() {
   runApp(const My_test());
@@ -17,9 +12,13 @@ class  My_test extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Class2(),
+      home:
+      NewTest(),
+      // WatterTraker(),
+
+      ///Class2(), modul_12
       // Calculetor(),
       //Class1(),
 
